@@ -95,7 +95,7 @@ namespace Camiones.Datos
                 comando.CommandText = "SP_INSERTAR_CAMION";
                 comando.Parameters.AddWithValue("@patente", nuevoCamion.Patente);
                 comando.Parameters.AddWithValue("@estadoCamion", nuevoCamion.estadoCamion);
-                comando.Parameters.AddWithValue("@pesoMax", nuevoCamion.Peso);
+                comando.Parameters.AddWithValue("@pesoMax", nuevoCamion.pesoMaximo);
 
                 SqlParameter parametro = new SqlParameter();
                 parametro.ParameterName = "@proxCamion";

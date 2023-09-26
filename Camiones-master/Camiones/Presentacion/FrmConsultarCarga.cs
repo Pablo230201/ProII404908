@@ -46,8 +46,6 @@ namespace Camiones.Presentacion
             //validar campos de carga!!!
             List<Parametro> lst = new List<Parametro>();
             lst.Add(new Parametro("@patente", txtPatente.Text));
-            lst.Add(new Parametro("@id_estado", TxtEstado.Text));
-            lst.Add(new Parametro("@peso_max", txtPeso.Text));
 
 
             DataTable tabla = new DBHelper().Consultar("SP_CONSULTAR_CAMIONES_MENOR", lst);

@@ -1,0 +1,13 @@
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\bin\Debug\Camiones.exe.config
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\bin\Debug\Camiones.exe
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\bin\Debug\Camiones.pdb
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.csproj.AssemblyReference.cache
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.csproj.SuggestedBindingRedirects.cache
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.Presentacion.CargasCamiones.resources
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.FormPrincipal.resources
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.Presentacion.FrmConsultarCarga.resources
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.Properties.Resources.resources
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.csproj.GenerateResource.cache
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.exe
+C:\Users\pablo\Source\Repos\ProII404908\Camiones-master\Camiones\obj\Debug\Camiones.pdb

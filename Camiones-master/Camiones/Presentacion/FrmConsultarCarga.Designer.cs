@@ -36,12 +36,10 @@
             this.txtPatente = new System.Windows.Forms.TextBox();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.dgvCarga = new System.Windows.Forms.DataGridView();
-            this.TxtEstado = new System.Windows.Forms.TextBox();
             this.ColPatente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColPeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColAcciones = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.txtPeso = new System.Windows.Forms.TextBox();
             this.grpFiltros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCarga)).BeginInit();
             this.SuspendLayout();
@@ -78,8 +76,6 @@
             // 
             // grpFiltros
             // 
-            this.grpFiltros.Controls.Add(this.txtPeso);
-            this.grpFiltros.Controls.Add(this.TxtEstado);
             this.grpFiltros.Controls.Add(this.label3);
             this.grpFiltros.Controls.Add(this.txtPatente);
             this.grpFiltros.Controls.Add(this.btnConsultar);
@@ -140,14 +136,6 @@
             this.dgvCarga.Size = new System.Drawing.Size(857, 202);
             this.dgvCarga.TabIndex = 11;
             // 
-            // TxtEstado
-            // 
-            this.TxtEstado.Location = new System.Drawing.Point(83, 83);
-            this.TxtEstado.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtEstado.Name = "TxtEstado";
-            this.TxtEstado.Size = new System.Drawing.Size(472, 22);
-            this.TxtEstado.TabIndex = 8;
-            // 
             // ColPatente
             // 
             this.ColPatente.HeaderText = "Patente";
@@ -182,14 +170,6 @@
             this.ColAcciones.UseColumnTextForButtonValue = true;
             this.ColAcciones.Width = 125;
             // 
-            // txtPeso
-            // 
-            this.txtPeso.Location = new System.Drawing.Point(64, 108);
-            this.txtPeso.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPeso.Name = "txtPeso";
-            this.txtPeso.Size = new System.Drawing.Size(472, 22);
-            this.txtPeso.TabIndex = 9;
-            // 
             // FrmConsultarCarga
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -220,11 +200,9 @@
         private System.Windows.Forms.TextBox txtPatente;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.DataGridView dgvCarga;
-        private System.Windows.Forms.TextBox TxtEstado;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColPatente;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColEstado;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColPeso;
         private System.Windows.Forms.DataGridViewButtonColumn ColAcciones;
-        private System.Windows.Forms.TextBox txtPeso;
     }
 }

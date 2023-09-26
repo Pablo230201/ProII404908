@@ -14,9 +14,8 @@ namespace Camiones.Entidades
         public int idCamion { get; set; }
         public string Patente { get; set; }
         public int estadoCamion { get; set; }
-        public int pesoMaximo { get; set; }
+        public double pesoMaximo { get; set; }
         public List<TipoCarga> listaCargas { get; set; }
-        public int Peso { get; private set; }
 
         public Camione() 
         {
@@ -26,17 +25,13 @@ namespace Camiones.Entidades
             pesoMaximo = 0;
             listaCargas = new List<TipoCarga>();
         }
-        public Camione(int idCamion, int peso)
+        public Camione(int idCamion, string Patente, int estadoCamion, double pesoMaximo)
         {
             this.idCamion = idCamion;
-            //this.Patente = patente;
+            this.Patente = Patente;
             this.estadoCamion = estadoCamion;
-            this.pesoMaximo = peso;
+            this.pesoMaximo = pesoMaximo;
             this.listaCargas = listaCargas;
-        }
-        public int CalcularTotalCargas()
-        {
-            return  pesoMaximo;
         }
         public double CalcularTotal()
         {
@@ -51,15 +46,15 @@ namespace Camiones.Entidades
 
         }
 
-        public object PesoRestante()
+        public double PesoRestante()
         {
-            return CalcularTotalCargas();
+            return pesoMaximo - c.Peso;
         }
 
         public void AgregarCarga(Carga nCarga)
         {
-            int cargaActual = CalcularTotalCargas();
-            int cargaNueva = cargaActual + (int)Peso;
+            double cargaActual = PesoRestante();
+            double cargaNueva = cargaActual + c.Peso;
         }
         public override string ToString()
         {

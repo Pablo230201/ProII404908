@@ -127,7 +127,7 @@ namespace Camiones.Presentacion
             iterar++;
 
             nuevoCamion.AgregarCarga(nCarga);
-            dgvCargas.Rows.Add(new object[] { nCarga.id_Carga, peso, textoTipo, "Quitar" });
+            dgvCargas.Rows.Add(new object[] { tipoCarga, peso, textoTipo, "Quitar" });
             CalcularPesoRestante();
         }
 
